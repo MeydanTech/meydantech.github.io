@@ -1,0 +1,102 @@
+{
+  "name": "third-and-grove",
+  "private": true,
+  "description": "Third and Grove",
+  "version": "0.1.0",
+  "author": "Third and Grove <https://www.thirdandgrove.com>",
+  "contributors": [
+    "Claire Annan <cannan@thirdandgrove.com>",
+    "Grant Glidewell <grant@thirdandgrove.com>",
+    "Nick Hulea <nick@thirdandgrove.com> (https://naeluh.com)",
+    "Wes Jones <wes@thirdandgrove.com>",
+    "Marie Kiryanova <marie@thirdandgrove.com> (https://marie.kiryanova.io)",
+    "Abby Milberg <amilberg@thirdandgrove.com>"
+  ],
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "axios": "^0.21.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0",
+    "express": "^4.17.1",
+    "gatsby": "^4.0",
+    "gatsby-image": "^3.0",
+    "gatsby-plugin-emotion": "^7.1.0",
+    "gatsby-plugin-feed": "^4.0",
+    "gatsby-plugin-fixhash": "^0.0.4",
+    "gatsby-plugin-google-marketing-platform": "^0.1.21",
+    "gatsby-plugin-google-tagmanager": "^4.0",
+    "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-image": "^2.3.0",
+    "gatsby-plugin-manifest": "^4.0",
+    "gatsby-plugin-netlify": "^3.14.0",
+    "gatsby-plugin-react-helmet": "^5.0",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
+    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-sharp": "^4.0.0",
+    "gatsby-plugin-sitemap": "^5.0.0",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.21",
+    "gatsby-source-drupal": "^5.0",
+    "gatsby-source-filesystem": "^4.0",
+    "gatsby-transformer-json": "^4.0",
+    "gatsby-transformer-sharp": "^4.0",
+    "html-react-parser": "^3.0.4",
+    "netlify-lambda": "^2.0.3",
+    "path-browserify": "^1.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-player": "^2.8.1",
+    "react-slick": "^0.28.0",
+    "react-spring": "^8.0.27",
+    "react-syntax-highlighter": "^15.5.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "~10.1.0",
+    "cypress": "^6.3.0",
+    "eslint": "~7.18.0",
+    "eslint-config-airbnb": "~18.2.1",
+    "eslint-config-prettier": "~7.2.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-import": "~2.22.1",
+    "eslint-plugin-jsx-a11y": "~6.4.1",
+    "eslint-plugin-prettier": "~3.3.1",
+    "eslint-plugin-react": "~7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "~4.3.8",
+    "jest": "^26.6.3",
+    "prettier": "~2.2.1",
+    "pretty-quick": "~3.1.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "yarn run develop",
+    "serve": "gatsby serve",
+    "cypress": "cypress open",
+    "test": "cypress run",
+    "lint": "node ./node_modules/eslint/bin/eslint . --ignore-path .gitignore",
+    "lambda": "netlify-lambda build ./static/functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thirdandgrove/tagd8_gatsby/"
+  },
+  "bugs": {
+    "url": "https://github.com/thirdandgrove/tagd8_gatsby/issues"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run lint",
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
