@@ -1,1 +1,0 @@
-# meydantech.github.io
