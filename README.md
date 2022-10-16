@@ -1,6 +1,6 @@
-# TAG V5
+# Official Website Repository
 
-![Twitter Follow](https://img.shields.io/twitter/follow/thirdandgrove.svg?label=Third%20%26%20Grove&style=social)
+MeydanTech brings its engineering expertise in Tech & people transformation to provide an array of services to help companies build their digital enterprise of tomorrow.
 
 Gatsby front end for Third and Grove's Drupal 8 backend.
 
