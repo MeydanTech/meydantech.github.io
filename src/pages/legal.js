@@ -5,8 +5,8 @@ import Layout from '../components/layout';
 import { container, mediaQueries, weights, contentHeadings } from '../styles';
 
 const Legal = () => {
-  const date = 'Effective: Apr 1, 2021';
-  const mailto = 'hello@thirdandgrove.com';
+  const date = 'Effective: Oct 16, 2022';
+  const mailto = 'hello@medantech.com';
 
   return (
     <Layout
