@@ -213,12 +213,12 @@ const About = ({ data }) => {
         />
         <Row>
           <div>
-            <h2>2013</h2>
+            <h2>2020</h2>
             <h3>Founded</h3>
           </div>
           <div>
-            <h2>17</h2>
-            <h3>States</h3>
+            <h2>1</h2>
+            <h3>Island</h3>
           </div>
           <div>
             <h2>140+</h2>

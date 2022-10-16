@@ -174,10 +174,7 @@ const Boston = ({ data }) => {
             `,
           ]}
         >
-          Two heads are better than one but a unified team is better than two.
-          We deliver the Drupal knowledge and digital horsepower but you bring
-          the experience that is needed for a thoughtful, reliable migration.
-          It’s a partnership and we like it that way.
+         
         </p>
       </FullWidthSection>
 
@@ -187,14 +184,14 @@ const Boston = ({ data }) => {
           <Button onClick={() => navigate(`/contact/`)}>Get in Touch</Button>
         </TextWrapper>
         <TextWrapper backgroundColor={colors.lightblue}>
-          <h3>Join the best in Boston.</h3>
+          <h3>Join the best in Colombo .</h3>
           <Button>
             <a
-              href='https://thirdandgrove.breezy.hr/'
+              href='#'
               target='_blank'
               rel='noreferrer'
             >
-              Work at TAG
+              Work at MeydanTech
             </a>
           </Button>
         </TextWrapper>
